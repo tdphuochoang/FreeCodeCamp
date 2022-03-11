@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://media.istockphoto.com/photos/isolated-shot-of-blank-clock-face-on-white-background-picture-id175590988?k=20&m=175590988&s=612x612&w=0&h=wQE-Hx2zv1onifc9Fmo8l2M-k88XTeW6H9iqOHKPcBA=")
+    no-repeat center/cover;
+  height: 100vh;
+  color: black;
+}
+
+.container {
+  background: transparent;
+  width: 650px;
+  height: 650px;
+  /*border: 4px solid #13353a;*/
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.container h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.controller {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+
+.controller h2 {
+  margin-bottom: 20px;
+}
+
+#break-label,
+#session-label {
+  text-align: center;
+}
+
+#break-label i,
+#session-label i {
+  font-size: 35px;
+  font-style: bold;
+  cursor: pointer;
+}
+
+#break-label span,
+#session-label span {
+  font-size: 35px;
+  margin: auto 18px;
+}
+
+.timer {
+  margin: 20px auto;
+  width: 300px;
+  height: 170px;
+  border: 6px solid #13353a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.timer #timer-label {
+  font-size: 27px;
+}
+
+#time-left {
+  font-size: 80px;
+}
+
+#main-btns {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start_stop,
+#reset {
+  margin-right: 10px;
+  cursor: pointer;
+}
